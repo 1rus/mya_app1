@@ -1,0 +1,9 @@
+function func(s,a,b){
+if (s.length == 1) {
+	return -1;
+	}	
+else {
+	var array1 = Array.from(s)
+	var res = Math.max(array1.lastIndexOf(a), array1.lastIndexOf(b));
+	return res
+}}
